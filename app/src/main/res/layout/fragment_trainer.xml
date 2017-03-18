@@ -1,0 +1,238 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="id.co.imastudio.profileapp.GalleryFragment"
+android:background="#2c2a3c">
+
+<!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#d02026"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEDI GUNAWAN\nCCIE RS"
+                android:id="@+id/textView42"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/abc_btn_colored_text_material"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="#0b033e" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trainer01"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#09013d"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#d02026"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OKY TRIA\nMTCINE"
+                android:id="@+id/textView32"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/abc_btn_colored_text_material"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="#0b033e" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trainer02"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#09013d"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#d02026"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEDI GUNAWAN\nCCIE RS"
+                android:id="@+id/textView4a"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/abc_btn_colored_text_material"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="#0b033e" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_imagea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trainer03"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#09013d"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#d02026"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OKY TRIA\nMTCINE"
+                android:id="@+id/textView3a"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/abc_btn_colored_text_material"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="#0b033e" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/prafile_image2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trainer07"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#09013d"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#d02026"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEDI GUNAWAN\nCCIE RS"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/abc_btn_colored_text_material"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="#0b033e" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trainer05"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#09013d"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#d02026"
+            android:padding="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OKY TRIA\nMTCINE"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/abc_btn_colored_text_material"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="#0d053f" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/trainer06"
+                app:civ_border_width="5dp"
+                app:civ_border_color="#09013d"
+                android:layout_margin="20dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+

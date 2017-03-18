@@ -1,0 +1,48 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.imastudio.profileapp.HomeFragment"
+    android:clickable="false"
+    android:background="#2c2a3c">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/idnputih" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPGRADE YOUR SKILLS, UPGRADE YOUR LIFE"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_margin="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID-NETWORKERS was established in 2008 by Dedi Gunawan (CCIE #29745 Routing &amp; Switching) who has mission to increasing the number of IT certification people in Indonesia. ID-Networkers is a training partner who has very good reputation and experience, we have graduated a thousands of students who not only know in a lot of network theoretical, but proficient in the lab and live network troubleshooting. Engineer who graduated from ID-Networkers have been accepted in the reputable and leading IT company in Indonesia and even in Singapore."
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:layout_margin="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

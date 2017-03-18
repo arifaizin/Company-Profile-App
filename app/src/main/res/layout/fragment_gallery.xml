@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.imastudio.profileapp.TrainerFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/wallpaper1"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/wallpaper2"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView5"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/wallpaper3"
+        android:scaleType="centerCrop" />
+
+    </LinearLayout>
+</ScrollView>
